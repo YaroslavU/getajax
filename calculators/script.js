@@ -18,8 +18,10 @@ console.log(squP(10, 20));
 
 // Сделайте калькулятор, который будет находить площадь круга и длину окружности.
 function circleSqu(r) {
-    var s = 3.14 * Math.pow(r, 2);
-    var l = 3.14 * 2 * r;
+    // var s = 3.14 * Math.pow(r, 2);
+    // var l = 3.14 * 2 * r;
+    var s = Math.PI * Math.pow(r, 2);
+    var l = Math.PI * 2 * r;
     return 'square is ' + s + ' ' + 'length is ' + l;
 }
 
