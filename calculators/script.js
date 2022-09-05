@@ -11,7 +11,7 @@ console.log(squ(10));
 
 function squP(a, b) {
     var square = a * b;
-    var perimiter = Math.pow(a, 2) + Math.pow(b, 2);
+    var perimiter = a * 2 + b * 2;
     return 'square is ' + square + ' ' + 'perimiter is ' + perimiter;
 }
 console.log(squP(10, 20));
