@@ -6,7 +6,7 @@ class Circle {
         this.#r = r;
     }
     static create(cx, cy, r) {
-        const c = new Circle(cx, cy, r);
+        var c = new Circle(cx, cy, r);
         return c;
     }
     static square(r) {
